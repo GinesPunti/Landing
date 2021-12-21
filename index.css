@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Press+Start+2P&family=Roboto+Mono:ital@1&display=swap');
+
+body{
+    margin: 0;
+    background-color: #182D34;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header{
+    background-image: url(doby.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+
+p{
+    margin: 5px;
+}
+
+h1{
+    margin: 0;
+    display: none;
+}
+
+.cont-titulo{
+    width: 47%;
+    height: 100vh;
+    padding-top: 40vh;
+}
+
+.titulo{
+    text-align: center;
+    margin: 0;
+    background-color: #7053b57c;
+    border-radius: 25px;
+}
+
+
+
+
+.cont-principal{
+    width: 100%;
+    height: 657px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.contenedor-redes,.contenedor-sobremi,.contenedor-trabajos{ 
+    width: 15%; 
+    height: 40%; 
+    background-color: rgba(0, 0, 0, 0.678);
+    color: white;
+    margin: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 4px solid #036DAE;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 0.8rem;
+}
+
+.contenedor-sobremi:hover .info-sobremi{
+    transition: all 1s;
+    transform: translateY(0)
+}
+
+.info-sobremi{
+    top: 50;
+    left: 0;
+    width: 500px;
+    height: 50%;
+    transform: translateY(-400%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.678);
+    cursor:default;
+}
+
+.contenedor-trabajos:hover .info-proyectos{
+    transition: all 1s;
+    transform: translateY(0)
+}
+
+.info-proyectos{
+    top:50;
+    width: 500px;
+    height: 50%;
+    transform: translateY(-400%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.678);
+    cursor:default;
+}
+
+
+.card-trabajos{
+    margin: 6vh;
+}
+
+.arrecifes{
+    text-decoration: none;
+    color: white;
+}
+
+.contenedor-redes:hover .redes{
+    transition: all 1s;
+    transform: translateY(0)
+}
+
+
+.redes{
+    top:50;
+    right:0;
+    width: 500px;
+    height: 50%;
+    transform: translateY(-400%);
+    position: absolute;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.678);
+    cursor:default;
+}
+
+.logo-face{
+    width: 48px;
+    height: 48px;
+}
+
+.logo-ig{
+    width: 48px;
+    height: 48px;
+}
+
+.logo-git{
+    width: 50px;
+    height: 50px;
+}
+
+.dedicatoria{
+    text-align: center;
+}
